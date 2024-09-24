@@ -31,6 +31,9 @@ This component displays detailed information about a specific product when a use
 
 ## Key Features Implemented:-
 Dynamic Routing: Utilized react-router-dom to manage navigation and parameters in URLs.
+
 API Integration: Implemented fetching data from the Open Food Facts API and handling responses and potential errors.
+
 Sorting and Pagination: Incorporated sorting options for the product list and pagination to navigate through large sets of results.
+
 State Management: Managed various states throughout the components using React's useState and useEffect hooks.
