@@ -1,0 +1,34 @@
+body{
+    background-color: #ffffff;
+}
+.container{
+display: flex;
+justify-content: center;
+}
+.main{
+width: 500px;
+padding: 20px;
+background-color: white;
+border: #ccc solid 1px;
+border-radius: 10px;
+}
+.imge{
+display: flex;
+justify-content: center;
+}
+.details h1{
+text-align: center;
+}
+.lable img {
+margin: 10px;
+}
+.nutrisce{
+margin-bottom: 30px;
+}
+.nutrisce div{
+display: flex;
+justify-content: center;
+}
+.nutrisce div img{
+   width: 180px;
+}

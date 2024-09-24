@@ -1,0 +1,132 @@
+
+.loading{
+    margin-top: 150px;
+display: flex;
+justify-content: center;
+
+}
+.loading img{
+width: 150px;
+height: 150px;
+}
+.prev,.next{
+margin: 10px;
+}
+.products{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 0.5rem;
+}
+.search{
+    position: absolute;
+    left: 1%;
+    }
+    .search select{
+    height: 30px;
+    margin: 2px;
+    }
+    .searchby{
+    position: absolute;
+    right: 1.5%;
+    }
+    .searchby select{
+        height: 30px;
+       
+    
+    }
+    .searchby input{
+    height: 25px;
+    width: 250px;
+    }
+    .searchby button{
+    height: 30px;
+    width: 90px;
+    border: black solid 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+    .list{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    }
+@media (max-width:1100px) {
+    .products{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width:750px) {
+    .products{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+@media (max-width:500px) {
+    .products{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+@media (max-width:880px) {
+            .list{
+            height: 85px;
+            }
+            .searchby select{
+                height: 25px;
+            }
+            .searchby input{
+            height: 20px;
+            width: 150px;
+            }
+            .searchby button{
+            height: 25px;
+            width: 70px;
+            }
+            .search select{
+                height: 25px;
+        
+                }
+                .search,.searchby{
+                    font-size: 14px;
+                    }
+}
+@media (max-width:600px) {
+    .searchby{
+        position: absolute;
+        left: 1%;
+        }
+    .search{
+        margin-top: 38px;
+        }
+        .list{
+            height: 115px;
+            }
+    .searchby select{
+        height: 20px;
+    }
+    .searchby input{
+    height: 15px;
+    width: 150px;
+    }
+    .searchby button{
+    height: 20px;
+    width: 70px;
+    }
+    .search select{
+        height: 20px;
+
+        }
+}
+@media (max-width:528px) {
+    .search,.searchby{
+        font-size: 12px;
+        }
+     
+    .searchby select{
+        width: 60px;
+        }
+       
+}
+
